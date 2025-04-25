@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -10,18 +11,24 @@
 </head>
 <body>
     <!--Navigation-->
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container">
             <a href="index.html" class="navbar-brand">
-                <img src="images/nasa-logo-sm.png" alt="" class="">
+                <img src="images/nasa-logo-sm.png" alt="" width="80" />
             </a>
-            <ul>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
-                <li class="nav-item"><a href="#speakers" class="nav-link">Speakers</a></li>
-                <li class="nav-item"><a href="#playlist" class="nav-link">2025 Playlist</a></li>
-                <li class="nav-item"><a href="#register" class="nav-link">Register</a></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#about" class="nav-link fw-extra-light">About</a></li>
+                <li class="nav-item"><a href="#schedule" class="nav-link fw-extra-light">Schedule</a></li>
+                <li class="nav-item"><a href="#speakers" class="nav-link fw-extra-light">Speakers</a></li>
+                <li class="nav-item"><a href="#playlist" class="nav-link fw-extra-light">2025 Playlist</a></li>
+                <li class="nav-item"><a href="#register" class="nav-link fw-extra-light">Register</a></li>
+            </ul>   
+            </div>
+
         </div>
     </nav>
 

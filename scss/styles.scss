@@ -1,4 +1,74 @@
+.about {
+    background: url(../images/desktop-bg-3.png) center center no-repeat;
+    background-size: cover;
+}
 .navbar {
     font-weight: 200;
     text-transform: uppercase;
+}
+
+.nav-item {
+    padding-left: 3rem;
+    paddingright: 3rem;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-family: 'Bruno Ace';
+    font-size: 9.6rem;
+    align-self: center;
+}
+
+h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    letter-spacing: 2rem;
+    align-self: center;
+}
+
+h3 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    letter-spacing: 2rem;
+    align-self: center;
+}
+
+h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+.header {
+    background: url(../images/desktop-bg-2.png) center center no-repeat;
+    background-size: cover;
+}
+
+html {
+    font-size: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.schedule li {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.schedule {
+    background: url(../images/desktop-bg-4.png) center center no-repeat;
+    background-size: cover;
+}
+
+.speakers {
+    background: url(../images/desktop-bg-5.png) center center no-repeat;
+    background-size: cover;
 }

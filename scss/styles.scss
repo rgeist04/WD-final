@@ -1,7 +1,21 @@
 .about {
-    background: url(../images/desktop-bg-3.png) center center no-repeat;
+    background-image: url(../images/desktop-bg-3.png);
+    background-size: cover;
+    height: 441px;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 2.9rem;
+    line-height: 3rem;
+    width: 580px;
+}
+
+.footer {
+    background-image: url(../images/desktop-bg-8.png);
     background-size: cover;
 }
+
 .navbar {
     font-weight: 200;
     text-transform: uppercase;
@@ -13,38 +27,70 @@
     font-size: 1.6rem;
 }
 
+.playlist {
+    background-image: url(../images/desktop-bg-6.png);
+    background-size: cover;
+    height: 556px;
+}
+
+.playlist ul {
+    list-style-type: none;
+}
+
+.playlist li {
+    height: 62px;
+    width: 280px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.playlist img {
+    height: 38px;
+    width: 38px;
+}
+
+.register {
+    background-image: url(../images/desktop-bg-7.png);
+    background-size: cover;
+}
+
 h1 {
     font-family: 'Bruno Ace';
+    text-transform: uppercase;
     font-size: 9.6rem;
     align-self: center;
+    line-height: 8rem;
 }
 
 h2 {
     font-weight: 200;
     text-transform: uppercase;
     font-size: 4.8rem;
-    letter-spacing: 2rem;
+    letter-spacing: 3rem;
     align-self: center;
 }
 
 h3 {
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 3.6rem;
-    letter-spacing: 2rem;
-    align-self: center;
+    letter-spacing: .25rem;
+    text-align: center;
+    line-height: 4.36rem;
 }
 
 h4 {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 3rem;
-    letter-spacing: 1rem;
+    margin-top: 45px;
+    margin-left: 31px;
 }
 
 .header {
-    background: url(../images/desktop-bg-2.png) center center no-repeat;
+    background-image: url(../images/desktop-bg-2.png);
     background-size: cover;
+    height: 640px;
 }
 
 html {
@@ -64,11 +110,37 @@ p {
 }
 
 .schedule {
-    background: url(../images/desktop-bg-4.png) center center no-repeat;
+    background-image: url(../images/desktop-bg-4.png);
     background-size: cover;
+    height: 1074px;
+}
+
+.schedule ul {
+    list-style-type: none;
+    margin-left: 15px;
 }
 
 .speakers {
-    background: url(../images/desktop-bg-5.png) center center no-repeat;
+    background-image: url(../images/desktop-bg-5.png);
     background-size: cover;
+    height: 680px;
+}
+
+.day{ 
+    background-color: black;
+    border-radius: 8px;
+    height: 657px;
+    width: 380px;
+}
+
+hr {
+    width: 318px;
+    height: 1px;
+    margin-left: 31px;
+    color: #d9d9d9;
+}
+
+.speaker {
+    width: 280px;
+    height: 390px;
 }

@@ -11,6 +11,11 @@
     width: 580px;
 }
 
+body {
+    width: auto;
+    margin: auto;
+ }
+
 .card {
     height: 335px;
     width: 280px;
@@ -27,14 +32,17 @@
     text-align: center;
 }
 
+.day{ 
+    background-color: black;
+    border-radius: 8px;
+    height: 657px;
+    width: 380px;
+}
+
 .footer {
     background-image: url(../images/desktop-bg-8.png);
     background-size: cover;
     height: 221px;
-}
-
-.footer ul {
-    list-style-type: none;
 }
 
 .footer li {
@@ -43,50 +51,8 @@
     font-size: 1.5rem;
 }
 
-.navbar {
-    font-weight: 200;
-    text-transform: uppercase;
-}
-
-.nav-item {
-    padding-left: 3rem;
-    paddingright: 3rem;
-    font-size: 1.6rem;
-}
-
-.playlist {
-    background-image: url(../images/desktop-bg-6.png);
-    background-size: cover;
-    height: 556px;
-}
-
-.playlist ul {
+.footer ul {
     list-style-type: none;
-}
-
-.playlist li {
-    height: 62px;
-    width: 280px;
-    background-color: black;
-    border-radius: 8px;
-}
-
-.playlist p {
-    margin-left: 30px;
-    margin-top: 15px;
-}
-
-.playlist img {
-    height: 38px;
-    width: 38px;
-    margin-left: 12px;
-    margin-top: 12px;
-}
-
-.register {
-    background-image: url(../images/desktop-bg-7.png);
-    background-size: cover;
-    height: 648px;
 }
 
 h1 {
@@ -136,8 +102,26 @@ h5 {
     height: 640px;
 }
 
+hr {
+    width: 318px;
+    height: 1px;
+    margin-left: 31px;
+    color: #d9d9d9;
+}
+
 html {
     font-size: 10px;
+}
+
+.navbar {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding-left: 3rem;
+    paddingright: 3rem;
+    font-size: 1.6rem;
 }
 
 p {
@@ -146,10 +130,39 @@ p {
     line-height: 3rem;
 }
 
-.schedule li {
-    font-size: 1.6rem;
-    font-weight: 300;
-    padding-bottom: 2rem;
+.playlist {
+    background-image: url(../images/desktop-bg-6.png);
+    background-size: cover;
+    height: 556px;
+}
+
+.playlist img {
+    height: 38px;
+    width: 38px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.playlist li {
+    height: 62px;
+    width: 280px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.playlist p {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.playlist ul {
+    list-style-type: none;
+}
+
+.register {
+    background-image: url(../images/desktop-bg-7.png);
+    background-size: cover;
+    height: 648px;
 }
 
 .schedule {
@@ -158,9 +171,20 @@ p {
     height: 1074px;
 }
 
+.schedule li {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
 .schedule ul {
     list-style-type: none;
     margin-left: 15px;
+}
+
+.speaker {
+    width: 280px;
+    height: 390px;
 }
 
 .speakers {
@@ -175,33 +199,53 @@ p {
     text-transform: uppercase;
 }
 
-.day{ 
-    background-color: black;
-    border-radius: 8px;
-    height: 657px;
-    width: 380px;
-}
-
-hr {
-    width: 318px;
-    height: 1px;
-    margin-left: 31px;
-    color: #d9d9d9;
-}
-
-.speaker {
-    width: 280px;
-    height: 390px;
-}
-
-body {
-    width: auto;
-    margin: auto;
- }
-
  @media only screen and (max-width: 576px) {
-    .hero {
-        height: 629px;
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about p {
+        width: 340px;
+        margin-left: 0px;
+    }
+
+    .card {
+        height: 340px;
+        width: 340px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .day{ 
+        background-color: black;
+        border-radius: 8px;
+        height: 575px;
+        width: 340px;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        height: 583px;
+    }
+
+    .footer li {
+        font-size: 1.4rem;
+        align-self: center;
+        gap: none;
+    }
+    
+    .footer ul {
+        display: flex;
+        flex-direction: column;
     }
 
     h1 {
@@ -214,13 +258,6 @@ body {
         text-align: center;
         letter-spacing: 1.5rem;
         margin-left: -70px;
-    }
-
-    .hero h3 {
-        font-size: 2rem;
-        text-align: center;
-        letter-spacing: 1.5rem;
-        font-weight: 200;
     }
 
     h3 {
@@ -238,27 +275,46 @@ body {
         font-size: 2rem;
     }
 
+    .hero {
+        height: 629px;
+    }
+
+    .hero h3 {
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1.5rem;
+        font-weight: 200;
+    }
+
     hr {
         width: 264px;
     }
 
-    .about {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about p {
-        width: 340px;
-        margin-left: 0px;
+    .offset-2 {
+        margin-left: 0 px;
     }
 
     p {
         width: 340px;
         align-items: center;
     }
-    
-    .offset-2 {
-        margin-left: 0 px;
+      
+    .playlist {
+        height: 800px;
+        padding-top: 250px;
+    }  
+
+    .register {
+        height: 1072px;
+    }
+
+    .register h1 {
+        font-size: 8rem;
+    }
+
+    .register p {
+        width: 271px;
+        align-self: center;
     }
 
     .schedule {
@@ -269,19 +325,6 @@ body {
         font-size: 1.2rem;
         font-weight: 300;
         padding-bottom: 2rem;
-    }
-
-    .day{ 
-        background-color: black;
-        border-radius: 8px;
-        height: 575px;
-        width: 340px;
-    }
-
-    .days {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .speakerlist {
@@ -300,49 +343,5 @@ body {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    .playlist {
-        height: 800px;
-        padding-top: 250px;
-    }
-
-    .register {
-        height: 1072px;
-    }
-
-    .register h1 {
-        font-size: 8rem;
-    }
-
-    .register p {
-        width: 271px;
-        align-self: center;
-    }
-
-    .cards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        height: 340px;
-        width: 340px;
-    }
-
-    .footer {
-        height: 583px;
-    }
-
-    .footer ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer li {
-        font-size: 1.4rem;
-        align-self: center;
-        gap: none;
     }
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             <a href="index.html" class="navbar-brand">
                 <img src="images/nasa-logo-sm.png" alt="" width="80" />
@@ -67,7 +67,7 @@
             <div class="row hstack g-5 d-flex flex-column">
                 <h3>3 Days of Awesome</h3>
                 <button class="btn btn-primary text-black my-4 col-md-2">Download PDF schedule</button>
-                <div class="d-flex gap-4 col-md-12 offeset-2 justify-content-center">
+                <div class="days d-flex gap-4 col-md-12 offeset-2 justify-content-center">
                     <div class="day col-md-4 d-flex flex-column gap-4">
                         <img src="images/thursday-lg.png" alt="" class="">
                         <h4>Thursday</h4>
@@ -117,7 +117,7 @@
         <div class="container py-4">
             <div class="row hstack g-5">
                 <h3>Yeah, The Speakers Are Total Space Geeks</h3>
-                <div class="d-flex gap-5 justify-content-center">
+                <div class="speakerlist d-flex gap-5 justify-content-center">
                     <div class="speaker col-md-4 d-flex flex-column justify-content-center gap-4">
                         <img src="images/yusef.png" alt="" class="">
                         <p><b>Yusef Johnson</b></p>
@@ -143,8 +143,8 @@
         <div class="container">
             <div class="row hstack g-5 d-flex flex-column">
                 <h3>Get Ready to (Space) Rock</h3>
-                <a class="btn btn-primary text-black my-4 col-md-2">Add to Spotify</a>
-                <ul class="d-flex gap-4 flex-wrap wrap">
+                <button class="btn btn-primary text-black my-4 col-md-2">Add to Spotify</button>
+                <ul class="d-flex gap-4 flex-wrap wrap justify-content-center">
                     <li class="d-flex col-md-3">
                         <img src="images/david-bowie.png" alt="">
                         <p>Space Oddity - David Bowie</p>
@@ -199,35 +199,35 @@
     </div>
 
     <!--Register-->
-    <div class="register">
+    <div class="register text-white">
         <div class="container">
             <div class="row">
                 <h3>Register, Like Right Now</h3>
-                <ul>
-                    <li>
-                        <h4>Camp + Lodging</h4>
+                <div class="cards d-flex gap-6 justify-content-center my-7">
+                    <div class="card text-white">
+                        <h5>Camp + Lodging</h5>
                         <h1>$425</h1>
                         <p>Ages 14-17</p>
                         <p>Includes camp activities, meals, and lodging, for 2 nights</p>
-                        <a class="btn">Save Your Space</a>
-                    </li>
-                    <li>
-                        <h4>Day Camp Only</h4>
+                        <button class="btn btn-primary text-black my-4">Save Your Space</button>
+                    </div>
+                    <div class="card text-white">
+                        <h5>Day Camp Only</h5>
                         <h1>$325</h1>
                         <p>Ages 14-17</p>
                         <p>Includes camp activities and lunch for 3 days</p>
-                        <a class="btn">Save Your Space</a>
-                    </li>
-                </ul>
+                        <button class="btn btn-primary text-black my-4">Save Your Space</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!--Footer-->
-    <footer class="footer">
+    <footer class="footer text-white">
         <div class="container">
             <div class="row">
-                <ul>
+                <ul class="d-flex gap-8 justify-content-center">
                     <li>About</li>
                     <li>Schedule</li>
                     <li><img src="images/nasa-logo-lg.png" alt=""></li>

@@ -11,9 +11,36 @@
     width: 580px;
 }
 
+.card {
+    height: 335px;
+    width: 280px;
+    background-color: #171717;
+    border-radius: 8px;
+}
+
+.card h1 {
+    font-size: 8rem;
+}
+
+.card p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
 .footer {
     background-image: url(../images/desktop-bg-8.png);
     background-size: cover;
+    height: 221px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
 }
 
 .navbar {
@@ -44,21 +71,29 @@
     border-radius: 8px;
 }
 
+.playlist p {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
 .playlist img {
     height: 38px;
     width: 38px;
+    margin-left: 12px;
+    margin-top: 12px;
 }
 
 .register {
     background-image: url(../images/desktop-bg-7.png);
     background-size: cover;
+    height: 648px;
 }
 
 h1 {
     font-family: 'Bruno Ace';
     text-transform: uppercase;
     font-size: 9.6rem;
-    align-self: center;
+    text-align: center;
     line-height: 8rem;
 }
 
@@ -85,6 +120,14 @@ h4 {
     font-size: 3rem;
     margin-top: 45px;
     margin-left: 31px;
+}
+
+h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .header {
@@ -126,6 +169,12 @@ p {
     height: 680px;
 }
 
+.speakers p {
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
 .day{ 
     background-color: black;
     border-radius: 8px;
@@ -143,4 +192,157 @@ hr {
 .speaker {
     width: 280px;
     height: 390px;
+}
+
+body {
+    width: auto;
+    margin: auto;
+ }
+
+ @media only screen and (max-width: 576px) {
+    .hero {
+        height: 629px;
+    }
+
+    h1 {
+        font-size: 6.4rem;
+        margin-left: -70px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1.5rem;
+        margin-left: -70px;
+    }
+
+    .hero h3 {
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1.5rem;
+        font-weight: 200;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        width: 340px;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-left: 38px;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 264px;
+    }
+
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about p {
+        width: 340px;
+        margin-left: 0px;
+    }
+
+    p {
+        width: 340px;
+        align-items: center;
+    }
+    
+    .offset-2 {
+        margin-left: 0 px;
+    }
+
+    .schedule {
+        height: 2012px;
+    }
+
+    .schedule li {
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-bottom: 2rem;
+    }
+
+    .day{ 
+        background-color: black;
+        border-radius: 8px;
+        height: 575px;
+        width: 340px;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speakerlist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .speakers {
+        height: 1593px;
+    }
+
+    .speakers h3 {
+        padding-top: 250px;
+        width: 340px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .playlist {
+        height: 800px;
+        padding-top: 250px;
+    }
+
+    .register {
+        height: 1072px;
+    }
+
+    .register h1 {
+        font-size: 8rem;
+    }
+
+    .register p {
+        width: 271px;
+        align-self: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        height: 340px;
+        width: 340px;
+    }
+
+    .footer {
+        height: 583px;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer li {
+        font-size: 1.4rem;
+        align-self: center;
+        gap: none;
+    }
 }
